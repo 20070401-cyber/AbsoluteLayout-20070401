@@ -4,9 +4,29 @@
              x:Class="StackLayout_20070401.StackLayout"
              Title="StackLayout">
     <AbsoluteLayout>
-        <Button Text="Click Me!"
-            AbsoluteLayout.LayoutBounds=".5,.5,.5,.5"
-            AbsoluteLayout.LayoutFlags="All"/>
-        <Button Text=".NET MAUI"/>
+        <Button Text="HAZ CLICK"
+       AbsoluteLayout.LayoutBounds=".5,.1,.2,.2"
+       AbsoluteLayout.LayoutFlags="All"
+       BackgroundColor="Pink"/>
+
+        <Button Text="HAZ CLICK"
+       AbsoluteLayout.LayoutBounds=".1,.1,.2,.2"
+       AbsoluteLayout.LayoutFlags="All"
+       BackgroundColor="Blue"/>
+
+        <Button Text="HAZ CLICK"
+       AbsoluteLayout.LayoutBounds=".9,.1,.2,.2"
+       AbsoluteLayout.LayoutFlags="All"
+       BackgroundColor="Purple"/>
+
+        <Label Text="MODIFICADO"
+        TextColor="White"
+        AbsoluteLayout.LayoutBounds=".9,.5,.6,.1"
+        AbsoluteLayout.LayoutFlags="All"/>
+
+        <Image Source="marcela.jpg"
+        AbsoluteLayout.LayoutBounds=".5,.9,.8,.3"
+        AbsoluteLayout.LayoutFlags="All"
+        />
     </AbsoluteLayout>
 </ContentPage>
